@@ -1,0 +1,1244 @@
+div{
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+.box{
+  float: left;
+  margin: 0 0 20px;
+}
+
+/* From index.html */
+/* Hover */
+
+
+svg:hover {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 1.5s linear forwards;
+    -o-animation: dash 1.5s linear forwards;
+    -moz-animation: dash 1.5s linear forwards;
+    animation: dash 1.5s linear forwards;
+}
+
+@-webkit-keyframes dash {
+    from {
+        stroke-dashoffset: 800;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* From SVG */
+
+.st0{fill:none;stroke:#000;stroke-miterlimit:10;}
+.st1{fill:#FFF;stroke:#000;stroke-miterlimit:10;}
+.st2{fill:#FFF;}
+
+svg {
+    strok-width:2px;
+    width:40%;
+    height:40%;
+}
+
+/* advertising */
+
+#bottle {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 783.65;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1s linear forwards;
+  -o-animation: dash 1s linear forwards;
+  -moz-animation: dash 1s linear forwards;
+  animation: dash 1s linear forwards;
+}
+.lightning {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+.lightning {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* analytics */
+
+#dash1 {-webkit-transition-delay: 0.01s;}
+#dash2 {-webkit-transition-delay: 0.06s;}
+#dash3 {-webkit-transition-delay: 0.12s;}
+#dash4 {-webkit-transition-delay: 0.18s;}
+#dash5 {-webkit-transition-delay: 0.24s;}
+#dash6 {-webkit-transition-delay: 0.30s;}
+#dash7 {-webkit-transition-delay: 0.36s;}
+#dash8 {-webkit-transition-delay: 0.42s;}
+#dash9 {-webkit-transition-delay: 0.48s;}
+#dash10 {-webkit-transition-delay: 0.54s;}
+#dash11 {-webkit-transition-delay: 0.60s;}
+#dash12 {-webkit-transition-delay: 0.66s;}
+#dash13 {-webkit-transition-delay: 0.72s;}
+#dash14 {-webkit-transition-delay: 0.78s;}
+#dash15 {-webkit-transition-delay: 0.84s;}
+#dash16 {-webkit-transition-delay: 0.90s;}
+#dash17 {-webkit-transition-delay: 0.96s;}
+#dash18 {-webkit-transition-delay: 1.02s;}
+#dash19 {-webkit-transition-delay: 1.08s;}
+#dash20 {-webkit-transition-delay: 1.14s;}
+#dash21 {-webkit-transition-delay: 1.20s;}
+#dash22 {-webkit-transition-delay: 1.26s;}
+#dash23 {-webkit-transition-delay: 1.32s;}
+#dash24 {-webkit-transition-delay: 1.38s;}
+
+
+
+#bottomThird {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomThird {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#leftThird {-webkit-animation: colorShiftBlack .7s linear .3s forwards;}
+  @-webkit-keyframes colorShiftBlack {
+    0%  { fill: #fff;}
+    100% { fill: #000;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#leftThird {-moz-animation: colorShiftBlack .7s linear .3s forwards;}
+  @-moz-keyframes colorShiftBlack {
+    0%  { fill: #fff;}
+    100% { fill: #000;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+  /* brand activation */
+
+/* brand activation */
+
+#circle6 {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circle6 {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circle3 {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circle3 {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circle1 {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circle1 {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#medTopRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift{
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#medTopRight {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleInner {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleInner {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* brand design */
+
+#head {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#head {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#pad {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#pad {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* brand strategy */
+
+#circleBottom {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleBottom {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleTop {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleTop {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleLeft {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleRight {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* cause related */
+
+#causeRelated {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 882.41;
+  stroke-dashoffset: 1;
+  -webkit-animation: dash 1.5s linear forwards;
+  -o-animation: dash 1.5s linear forwards;
+  -moz-animation: dash 1.5s linear forwards;
+  animation: dash 1.5s linear forwards;
+}
+#left {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#left {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#right {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#right {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#top {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#top {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* crm */
+
+#cuffRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#cuffRight {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#cuffLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#cuffLeft {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* digital ads */
+
+#screen {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 1182.41;
+  stroke-dashoffset: 1;
+  -webkit-animation: dash 1.5s linear forwards;
+  -o-animation: dash 1.5s linear forwards;
+  -moz-animation: dash 1.5s linear forwards;
+  animation: dash 1.5s linear forwards;
+}
+#bottomBoxRight1 {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomBoxRight1 {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomBoxRight2 {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomBoxRight2 {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomBoxLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomBoxLeft {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#play {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#play {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#smallBoxLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#smallBoxLeft {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#smallBoxMiddle {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#smallBoxMiddle {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#smallBoxRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#smallBoxRight {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* experiential */
+
+#ears {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#ears {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* media planning */
+
+#globe {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 982.41;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1s linear forwards;
+  -o-animation: dash 1s linear forwards;
+  -moz-animation: dash 1s linear forwards;
+  animation: dash 1s linear forwards;
+}
+#markerRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#markerRight {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#markerLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#markerLeft {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#markerBottom {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#markerBottom {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* mobile marketing */
+
+#phone {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s linear forwards;
+  -o-animation: dash 1.5s linear forwards;
+  -moz-animation: dash 1.5s linear forwards;
+  animation: dash 1.5s linear forwards;
+}
+#awning {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 1000;}
+    to {stroke-dashoffset: 0;}
+  }
+#awning {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 1000;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* paid search */
+
+#motionPath {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s linear forwards;
+  -o-animation: dash 1.5s linear forwards;
+  -moz-animation: dash 1.5s linear forwards;
+  animation: dash 1.5s linear forwards;
+}
+#bigCircle {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bigCircle {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* promotional */
+
+#topMiddle {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topMiddle {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topRight {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topLeft {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* public relations */
+
+#coverLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#coverLeft {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#coverRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#coverRight {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#base {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#base {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* rep management */
+
+#smallMessage {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#smallMessage {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleLeft {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleLeft {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleMiddle {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleMiddle {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleRight {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#circleRight {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* social media */
+
+#tablet {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s linear forwards;
+  -o-animation: dash 1.5s linear forwards;
+  -moz-animation: dash 1.5s linear forwards;
+  animation: dash 1.5s linear forwards;
+}
+#playButton {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#playButton {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#tail {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#tail {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#leftArm {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#leftArm {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#rightArm {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#rightArm {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#body {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#body {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* trade */
+
+#briefCase {
+  width:40%;
+  height:40%;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s linear forwards;
+  -o-animation: dash 1.5s linear forwards;
+  -moz-animation: dash 1.5s linear forwards;
+  animation: dash 1.5s linear forwards;
+}
+#buckle {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#buckle {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#buckleLine {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#buckleLine {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#cuff {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#cuff {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+/* web design */
+
+#bigBox {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bigBox {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topBox1 {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topBox1 {-moz-animation: colorShift .1s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#leftBox {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#leftBox {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#middleBox {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#middleBox {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#rightBox {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#rightBox {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topBox {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#topBox {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomBox {-webkit-animation: colorShift .7s linear .3s forwards;}
+  @-webkit-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-webkit-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+#bottomBox {-moz-animation: colorShift .7s linear .3s forwards;}
+  @-moz-keyframes colorShift {
+    0%  { fill: #fff;}
+    100% { fill: #A8AD00;}
+  }
+  @-moz-keyframes dash {
+    from {stroke-dashoffset: 800;}
+    to {stroke-dashoffset: 0;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
